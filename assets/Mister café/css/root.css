@@ -1,0 +1,163 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+*{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+    text-align: center;
+}
+
+:root {
+    --cafe: 69, 41, 7;
+    --misterCafe: rgba(var(--cafe), 0.4);
+    --moka: #A57D31;
+    --cara: 165, 125, 49;
+    --caramel: rgba(var(--cara), 0.5);
+    --bgwhite: #FAF4F4;
+    background-color: #FAF4F4;
+    font-size: calc(0.8em + 1vmin);
+    font-family: Gugi;
+    --main-font: Gugi, sans-serif;
+    --font: Acme, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+
+}
+
+#logo {
+    width: 100%;
+    display: flex;
+}
+#logo .header{
+    width: 40%;
+    display: flex;
+}
+.logoCafe{
+    min-width: 8em;
+    min-height: 8em;
+    max-width: 8em;
+    max-height: 8em;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+#recherche {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1%;
+    padding-right: 2%;
+    
+}
+
+#recherche input {
+    padding-bottom: 8PX;
+    padding-top: 8px;
+    border-radius: 10px;
+    width: 20em;
+    height: 3em;
+}
+
+#recherche i {
+    padding-left: 3px;
+}
+/*.loupe {
+    width: 40px;
+    height: 40px;
+    display: none;    
+}*/
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+}
+
+
+@font-face {
+    font-family: Gugi;
+    src: url(/home/step/Téléchargements/A2BVn5dXywshVA6A9DEfgqM.ttf;)
+}
+
+footer {
+    background-color: var(--misterCafe);
+    list-style: none;
+    width: auto;
+}
+
+footer .ecrit {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-content: center;
+}
+
+@media(min-width:485px) {
+
+    footer {
+        display: flex;
+    }
+    
+    footer .ecrit {
+        width: 70%;
+    }
+    
+    footer ul {
+        display: flex;
+        width: 40%;
+    }
+}
+
+@media(max-width : 485px) {
+    .loupe {
+        visibility:visible;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    footer .ecrit {
+        flex-direction: column;
+    }
+}

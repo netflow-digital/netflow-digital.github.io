@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="./css/root.css" type="text/css">
+    <link rel="stylesheet" href="./css/produit.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.O">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Mister Café Cremoso</title>
+</head>
+
+<body class="body">
+    <nav>
+        <div id="logo">
+            <div class="header">
+                <img class="logoCafe" src="./images/Rectangle 1.png" alt="logo Mister Café">
+                <h1> Mister Café</h1>
+            </div>
+
+            <div id="menu">
+                <div id="recherche">
+                    <input type="text">
+                    <i class="fa-solid fa-magnifying-glass fa-2x "></i>
+                </div>
+                <ul>
+                    <li><a href=index.html>Accueil</a></li>
+                    <li><a href=produit.html>Nos cafés</a></li>
+                    <li><a href=contact.html>Contact</a></li>
+                    <li><a href="#account"><img src="./images/mdi_account.png" alt="image account"></a></li>
+                    <li><a href="panier.html"><img src="./images/subway_bag.png" alt="image panier"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="barreHeader">
+        <p>||</p>
+    </div>
+
+    <main>
+    <section class="produit">
+        <div class="photo">
+            <img src="./images/Ellipse 4.png" alt="sachet de café cremoso">
+            <p><span>6€70</span></p>
+            <p>24€95/kg</p>
+        </div>
+
+        <div class="notice">
+            <p>Café en grains Cremoso 250gr</p>
+            <p>Doux et equilibré <br>
+                Intensité 5/10</p>
+            <img src="./images/Intensité café.png" alt="Intensité café 5 sur 10">
+        </div>
+    </section>
+    <div class="bouton">
+        <div class="input_div" style="width:250px;">
+            <input type="button" value="-" id="moins" onclick="minus()">
+            <input type="text" size="5" value="0" id="count">
+            <input type="button" value="+" id="plus" onclick="plus()">
+        </div>
+        <button> Ajoutez au panier</button>
+    </div>
+
+    <section>
+        <div class="description">
+            <h2>DOUX ET EQUILIBRE</h2>
+
+            <p>Parfait assemblage d’Arabicas d’Amérique du Sud avec une pointe de Robusta, CREMOSO est un expresso doux
+                et velouté au corps fin et raffiné.</p>
+            <p>CREMOSO est un café équilibré associant des douces notes de céréales animéees par de subtiles notes
+                fruitées, surmonté d’une mousse incroyablement onctueuse.</p>
+            <p>Laissez vous envoûter par un moment de dégustation intense.</p>
+
+            </p>
+        </div>
+
+        <div class="specifique">
+            <p><span>Torréfaction</span> : Artisanales, Lente et preogressive<br>
+                <span>Technique</span> : Café Lavé<br>
+                <span>Altitude</span> : 1300-1800m <br>
+                <span>Récolte</span> : Manuelle et Sélective
+            </p>
+        </div>
+    </section>
+</main>
+
+
+    <footer>
+        <div class="ecrit">
+            <p>CVG</p>
+            <p>Mentions légales</p>
+        </div>
+        <ul>
+            <li><a #href=""></a><img src="./images/ant-design_phone-filled.png" alt="tel" title="Tel : 09 94 56 78  78">
+            </li>
+            <li><a #href=""></a><img src="./images/cil_envelope-closed.png" alt="mail"
+                    title="Email : https ://mistercafe.org"></li>
+            <li><a #href=""></a><img src="./images/akar-icons_facebook-fill.png" alt="facebook"></li>
+            <li><a #href=""></a><img src="./images/akar-icons_instagram-fill.png" alt="instagram"></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

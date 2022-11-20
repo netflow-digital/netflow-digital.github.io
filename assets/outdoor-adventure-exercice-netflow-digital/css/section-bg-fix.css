@@ -1,0 +1,47 @@
+.main{
+    background-image: url(./../images/section-bg-img.jpg);
+    background-attachment: fixed;
+    background-position: 40% 0%;
+}
+
+.main .contenaire{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenus{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+.contenus h2{
+    text-transform: uppercase;
+    font-size: 2.125rem;
+    font-family: 'Montserrat',sans-serif;
+    padding-bottom: 1em;
+}
+.contenus p{
+    padding-top: 1.7em;
+    padding-bottom: 2.5em;
+}
+.contenus button{
+    text-align: center;
+    background-color: var(--roseClairBoutton);
+    color: var(--white);
+    border-radius: 1.875rem;
+    border-color: var(--roseClairBoutton);
+    padding-top: 1.063rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.063rem;
+    padding-left: 2.5rem;
+    font-weight: 700;
+    width: 31%;
+}
+.contenus hr{
+    border : 2px solid var(--roseClairBoutton);
+    width: 8%;
+}

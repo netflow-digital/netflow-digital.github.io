@@ -1,0 +1,26 @@
+.banner{
+    background-color: var(--perle);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .quote{
+    padding-right: 1rem;
+}
+.banner figure{
+    padding-top: 3.125em;
+    padding-bottom: 3.125em;
+    color:var(--texte);
+    
+}
+.banner blockquote{
+    font-size: 1.3em;
+    margin-bottom: 1.25rem;
+}
+
+
+.banner figcaption{
+    line-height: 1.5;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,173 @@
+.background {
+    background-image: url("./../images/about-bg-5.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.who {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who h1 {
+    color: var(--white);
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+.container {
+    padding-top: 6.25em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .contenant {
+    width: 80%;
+    display: flex;
+}
+
+.texte {
+    width: 40%;
+    padding-right: 10%;
+}
+
+p {
+    color: var(--texte);
+    padding-top: 1.5em;
+
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+hr {
+    border: 2px solid var(--roseClairBoutton);
+    width: 10%;
+}
+
+.texte h2 {
+    font-size: 2.125rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: baseline;
+    padding-bottom: 0.5em;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    width: 100%;
+    filter: drop-shadow(15px 10px 4px #ededed);
+}
+
+h3 {
+    padding-bottom: 1em;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part ul li {
+    line-height: 2em;
+    color: var(--texte);
+}
+
+.part ul li::before {
+    content: "\002013";
+    color: var(--roseClairBoutton);
+    display: inline-block;
+    width: 1.5em;
+    font-weight: 900
+}
+
+;
+
+
+ul {
+    padding-top: 1em;
+
+}
+
+.part1 {
+    padding-right: 10%;
+    width: 40%;
+    padding-bottom: 6em;
+}
+
+.part {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    nav{
+        background-color: var(--white);
+        color: var(--black);
+    }
+    header ul li{
+        display: none;
+    }
+    
+    .container{
+        padding-top: 4.5em;
+    }
+    .container .contenant{
+        display: block;
+        width: 90%;
+    }
+    .texte{
+        width: 100%;
+        padding-right: 0%;
+    }
+    .texte h2{
+        text-align: center;
+    }
+    .texte p{
+        text-align: center;
+    }
+    hr{
+        margin: auto;
+        width: 10%;
+    }
+
+    .img {
+        padding-top: 1.5em;
+        width: 100%;
+    }
+
+    .part1{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 3em;
+        padding-right: 0%;
+    }
+
+    .part{
+        width: 100%;
+        padding-bottom: 3em;
+
+    }
+    .part h3{
+        text-align: center;
+    }
+    .part p{
+        text-align: center;
+    }
+    footer{
+        padding : 1.5em
+    }
+    footer p{
+        padding-top: 0%;
+    }
+}

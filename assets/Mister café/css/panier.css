@@ -1,0 +1,96 @@
+#barreHeader {
+    background-color: var(--misterCafe);
+    height: 5%;
+}
+#barreHeader p {
+opacity: 0;
+}
+
+h2{
+    color: var(--moka);
+    padding-left: 3%;
+}
+.panier{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(69, 41, 7, 0.1);
+}
+
+.panier .boite{
+    flex-direction: column;
+}
+.panier .boite .titre{
+    text-align: center;
+}
+.panier .boite ul {
+    list-style: none;
+}
+.panier .boite ul li{
+    padding: 0.5em ;
+    text-align: center;
+}
+
+
+.panier .boite2
+    flex-direction:column;
+}
+.panier .boite2 .titre{
+    text-align: center;
+}
+.panier .boite2 ul {
+    list-style: none;
+}
+.panier .boite2 ul li{
+    padding: 0.5em ;
+    text-align: center;
+}
+
+@media(max-width : 450px){
+    .boite2{
+        display: none;
+    }
+}
+.promo {
+    padding-top: 1em;
+    color: var(--moka);
+    font-size: 1.2rem;
+    
+}
+.promo label{
+    padding-left: 3%;
+}
+
+.test {
+    display: flex;
+    justify-content: flex-end;
+}
+.test .texte{
+    display: flex;
+    flex-direction: column;
+}
+.test .price{
+    display: flex;
+    flex-direction: column;
+}
+
+.test .price ul li{
+    list-style: none;
+    padding-top:0.5rem ;
+}
+
+.test .texte ul li {
+    list-style:  none;
+    padding-top:0.5rem ;
+}
+.bouton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.bouton button{
+    background-color: var(--moka);
+    padding: 0.8em;
+    color: var(--bgwhite);
+    font-size: 1.2rem;
+    border-radius: 30px;
+}

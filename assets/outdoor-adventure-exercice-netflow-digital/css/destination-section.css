@@ -1,0 +1,66 @@
+section .destinationSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.para{
+    flex-direction: column;
+    padding-right: 5em;
+    width: 85%;
+}
+.para h2{
+    font-size: 2.125rem;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: baseline;
+    padding-bottom: 0.5em;
+}
+.para hr{
+    border : 1px solid var(--roseClairBoutton);
+    width: 20%;
+    
+}
+.para p{
+    color: var(--texte);
+    padding-top: 1.5em ;
+    padding-bottom: 2em;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.para button{
+    text-align: center;
+    background-color: var(--roseClairBoutton);
+    color: var(--white);
+    border-radius: 1.875rem;
+    border-color: var(--roseClairBoutton);
+    padding-top: 1.063rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.063rem;
+    padding-left: 2.5rem;
+    font-weight: 700;
+}
+
+.bandeau {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.conteneur {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap :1em;
+}
+
+.photo{
+    width: 100%;
+}

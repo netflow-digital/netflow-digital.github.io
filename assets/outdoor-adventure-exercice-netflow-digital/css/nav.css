@@ -1,0 +1,61 @@
+header{
+    background-color: transparent;
+    color:var(--white);
+    position: absolute;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    padding-right: 0%;
+}
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+    padding-left: 2em;
+}
+.logo img{
+    max-width: 9.375em;
+}
+
+header ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header ul li button{
+    background-color:var(--roseClairBoutton);
+    color: var(--white);
+    border-radius: 1.875em;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right:2.5rem;
+    padding-left: 2.5rem;
+
+}
+header ul li  a{
+    text-decoration: none;
+    color: var(--white);
+}
+    @media only screen and (max-width : 921px) {
+        .logoBlanc{
+            display: none;
+        }
+        nav{
+            background-color: var(--white);
+            color: var(--black);
+        }
+        header ul li{
+            display: none;
+        }
+
+    }
+    @media only screen and (min-width : 921px) {
+        .logoNoir{
+            display: none;
+        }
+    }

@@ -1,0 +1,70 @@
+#barreHeader {
+    background-color: var(--misterCafe);
+    height: 5%;
+}
+#barreHeader p {
+opacity: 0;
+}
+
+.produit{
+    display: flex;
+}
+@media(max-width :480px){
+    .produit{
+ flex-wrap: wrap;
+}}
+
+.produit .photo{
+flex-direction: column;
+width: 40%;
+display: flex;
+align-items: center;
+}
+
+.produit .photo p{
+    text-align: center;
+    font-size: large;
+}
+.produit .photo p span{
+    color: var(--moka);
+    font-size: 1.8em;
+}
+
+.produit .notice p{
+    text-align: center;
+}
+
+.notice img{
+    padding-left: 15%;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;;
+}
+.bouton button{
+    background-color: var(--moka);
+    color: var(--bgwhite);
+    padding: 1.2rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    
+}
+.description{
+    background-color: var(--caramel);
+    padding: 3%;
+    width: 80%;
+    margin: auto;
+}
+
+.description h2{
+    margin-top: 0;
+}
+
+.specifique{
+ text-align: center;
+}
+
+.specifique p span{
+    font-weight: bold;
+}

@@ -1,0 +1,69 @@
+.titre{
+    padding-top: 6.25em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3.5em;
+}
+
+h2{
+    font-size: 2.125rem;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: baseline;
+    padding-bottom: 0.5em;
+}
+
+section .titre hr{
+    border : 2px solid var(--roseClairBoutton);
+    width: 8%;
+}
+.event{
+    display: flex;
+    justify-content: center;
+    
+}
+.event .contenaire{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap :5em;
+    padding-bottom: 6.25em;
+}
+
+.event p{
+    color: var(--texte);
+    padding-top: 1.5em ;
+    padding-bottom: 2em;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.event button{
+    text-align: center;
+    background-color: var(--roseClairBoutton);
+    color: var(--white);
+    border-radius: 1.875rem;
+    border-color: var(--roseClairBoutton);
+    padding-top: 1.063rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.063rem;
+    padding-left: 2.5rem;
+    font-weight: 700;
+}
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenu img{
+    width: 100%;
+    filter: drop-shadow(15px 10px 4px #ededed);
+}
+.contenu h3{
+    padding-top: 3em;
+}
