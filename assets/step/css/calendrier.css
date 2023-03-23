@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+main {
+    padding-top: 4em;
+    padding-left: 10px;
+}
+
+tr .calendar {
+    width: 100%;
+    text-align: center;
+    height: 50%;
+
+}
+
+.calendar td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 10px;
+    width: 14.29%;
+    height: 20vh;
+}
